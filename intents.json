@@ -1,0 +1,163 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello! I am AffirmBot here to assist you. How are you doing today?",
+                "Hello there, nice to meet you! How are you?",
+                "Hi! Nice to meet you. How are you feeling today?"
+            ]
+        },
+        {
+            "tag": "greeting-followUp1",
+            "patterns": [
+                "I am feeling great, thank you",
+                "Awesome",
+                "Great",
+                "I am good",
+                "I am great",
+                "Amazing",
+                "Very Good"
+            ],
+            "responses": [
+                "Awesome. What can I do to help you?",
+                "Amazing. What can I do for you?",
+                "Great. How can I help today?",
+                "Perfect. What can I do today"
+            ]
+        },
+        {
+            "tag": "greeting-followUp2",
+            "patterns": [
+                "I am feeling bad",
+                "I feel down",
+                "I feel bad",
+                "I am sad",
+                "I am so down",
+                "I am overwhelmed",
+                "Life is hard"
+            ],
+            "responses": [
+                "I am sorry you feel this way. What can I do to make it better?",
+                "I am sorry to hear this. How could I make it better?",
+                "This cannot continue like this. Let's make you better!",
+                "Sorry you feel this way. I definitly want to make it better!"
+            ]
+        },
+        {
+            "tag": "Affirmation_1",
+            "patterns": [
+                "Send me a positive affirmation",
+                "Send me an affirmation",
+                "I want an affirmation",
+                "I want to feel better",
+                "I want to be motivated",
+                "I want to feel great",
+                "I want positive reassurance",
+                "I want reassurance",
+                "I want to feel good"
+            ],
+            "responses": [
+                "I am filled with gratitude and positivity.",
+                "Today, I embrace all the good that life has to offer.",
+                "I am in perfect harmony with myself and the universe.",
+                "I radiate happiness, success, and abundance.",
+                "I trust in my abilities and embrace my potential.",
+                "I am proud of everything I have accomplished so far.",
+                "I am grateful for the opportunities that come my way.",
+                "Every challenge I face is an opportunity to grow.",
+                "I am a magnet for positivity and success.",
+                "My energy is limitless, and my possibilities are endless.",
+                "I am worthy of love, respect, and all the good things in life.",
+                "I choose to focus on the present moment and enjoy it to the fullest.",
+                "My mind is clear, my heart is full, and my soul is at peace.",
+                "I trust the process of life and know everything unfolds as it should.",
+                "I am confident in my decisions and the path I am on.",
+                "I attract positive, healthy relationships into my life.",
+                "I celebrate my strengths and embrace my uniqueness.",
+                "I am at peace with my past, present, and future.",
+                "I am capable of achieving all my goals and dreams.",
+                "I am grateful for the abundance and joy that surrounds me."
+            ]
+        },
+        {
+            "tag": "Affirmation_2",
+            "patterns": [
+                "Send me a positive affirmation",
+                "Send me an affirmation",
+                "I want an affirmation",
+                "I want to feel better",
+                "I want to be motivated",
+                "I want to feel great",
+                "I want positive reassurance",
+                "affirmation",
+                "send me something",
+                "I want something to make me feel better"
+            ],
+            "responses": [
+                "I am strong, and I have the power to overcome this.",
+                "This feeling is temporary, and I will get through it.",
+                "I am worthy of love, peace, and happiness.",
+                "I have faced challenges before, and I can face this one too.",
+                "I choose to focus on what I can control and let go of what I cannot.",
+                "I trust that this moment will pass, and better days are ahead.",
+                "I am deserving of all the good things that life has to offer.",
+                "I am not defined by my struggles; I am defined by how I rise above them.",
+                "I am allowed to feel, but I am not my feelings.",
+                "I am doing the best I can, and that is enough.",
+                "I am not alone; there is support and love around me.",
+                "I am capable of handling whatever comes my way.",
+                "I trust in the healing process and know I will emerge stronger.",
+                "I am resilient, and I bounce back from adversity.",
+                "I choose to be kind to myself and give myself the grace to heal.",
+                "I believe in myself, even on days when it's hard.",
+                "I am in control of my thoughts, and I choose to focus on the positive.",
+                "I am more than enough, just as I am.",
+                "Every step forward, no matter how small, is progress.",
+                "I trust that the universe is guiding me toward a brighter tomorrow."
+            ]
+        },
+        {
+            "tag": "Thank you",
+            "patterns": [
+                "thank you",
+                "Thx",
+                "thanks",
+                "I feel better",
+                "I feel great",
+                "That's great"
+            ],
+            "responses": [
+                "Amazing. I am always here for you!",
+                "Great. I am glad it worked!",
+                "Awesome, glad you feel better!"
+            ]
+        },
+        {
+            "tag": "Goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you next time",
+                "thank you for that",
+                "Bye Bye"
+            ],
+            "responses": [
+                "Great. Until the next time!",
+                "See you!",
+                "Goodbye",
+                "Have a nice day"
+            ]
+        }
+
+
+    ]
+}
