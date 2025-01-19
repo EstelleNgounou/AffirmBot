@@ -34,7 +34,7 @@ class Chat {
         textField.value = ""; // Clear input field
 
         // Send the m3essage to Node.js backend (which is connected to Dialogflow)
-        fetch('http://127.0.0.1:5000/predict', {
+        fetch('https://affirmbot.onrender.com/predict', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify( {message: userMessage}),
