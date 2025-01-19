@@ -1,7 +1,7 @@
 import numpy as np
 import nltk
 nltk.download('punkt')
-nltk.data.path.append('/nltk_data')
+nltk.data.path.append('./nltk_data')
 
 from nltk.stem.porter import PorterStemmer
 
