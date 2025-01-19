@@ -1,9 +1,11 @@
 from flask import Flask, render_template, request, jsonify
 import os
+from flask_cors import CORS
 
 from chat import get_response
 
 app = Flask(__name__)
+CORS(app)
 
 @app.get("/")
 def index_get():
@@ -18,4 +20,4 @@ def predict():
 
 if __name__== "__main__":
     port = int(os.environ.get("PORT", 5500))  
-    app.run(host="0.0.0.0", port=port, debug= True)
+    app.run(host="0.0.0.0", port=port)
